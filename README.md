@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# VHack 2024 Todo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test todo app using FireStore and GitHub pages.
 
-Currently, two official plugins are available:
+## Deploy instruction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Run `pnpm run build`
+2. Run `pnpm run deploy`
 
-## Expanding the ESLint configuration
+## Resources
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Firestore: Quickstart](https://firebase.google.com/docs/firestore/quickstart)
+- [LogRocket: Deploy React Apps on GitHub pages](https://blog.logrocket.com/deploying-react-apps-github-pages/)
+- [Vite: Config](https://vitejs.dev/config/)
